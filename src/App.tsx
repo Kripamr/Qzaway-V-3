@@ -2,14 +2,14 @@ import { useState, useMemo, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Screen, Restaurant, CartItem, MenuItem } from './types';
 import { fetchMenuByRestaurantId, MOCK_MENU } from './services/menuService';
-import qzawayLogo from '../public/logo2.png';
+// import qzawayLogo from '../public/logo2.png';
 
 // --- Components ---
 
 const Logo = ({ className = "" }: { className?: string }) => {
   return (
     <div className={`relative flex items-center justify-center ${className}`}>
-      <img src={qzawayLogo} alt="QzAway Logo" className="w-full h-full object-contain" />
+      <img src="/logo2.png" alt="QzAway Logo" className="w-full h-full object-contain" />
     </div>
   );
 };
