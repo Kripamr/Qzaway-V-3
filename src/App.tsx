@@ -9,7 +9,7 @@ import { fetchMenuByRestaurantId, MOCK_MENU } from './services/menuService';
 const Logo = ({ className = "" }: { className?: string }) => {
   return (
     <div className={`relative flex items-center justify-center ${className}`}>
-      <img src="/logo2.png" alt="QzAway Logo" className="w-full h-full object-contain" />
+      <img src="/app_logo.png" alt="QzAway Logo" className="w-full h-full object-contain" />
     </div>
   );
 };
